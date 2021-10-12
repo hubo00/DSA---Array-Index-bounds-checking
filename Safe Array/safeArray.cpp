@@ -5,7 +5,7 @@
 int safeArray::at(int value) {
 	if (value >= size) {
 		std::cout << "Array index out of bounds" << std::endl;
- 		std::exit(-1);
+ 		return -1;
 	}
 	else {
 		std::cout << arr[value] << std::endl;
